@@ -12,7 +12,7 @@ An interactive web application built with Streamlit and PyTorch that uses Convol
 * **Interactive UI:** A clean Streamlit frontend where users can upload images of equations and get real-time computed results.
 
 ## 🏗️ Project Architecture
-1. **`CNN_NIT_Project.ipynb`:** The core notebook detailing the dataset preprocessing, CNN architecture, and training pipeline.
+1. **`cnn_training_pipeline.ipynb`:** The core notebook detailing the dataset preprocessing, CNN architecture, and training pipeline.
 2. **`helper_functions.py`:** Utility scripts for image processing (bounding boxes, contour detection) using OpenCV before passing them to the PyTorch models.
 3. **`app.py`:** The Streamlit application that handles the UI and real-time model inference.
 
