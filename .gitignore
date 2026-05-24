@@ -1,0 +1,20 @@
+# 1. Ignore large image datasets
+Data/
+operators/
+Test/
+
+# 2. Ignore temporary images created while the app runs
+*.png
+temp/
+
+# 3. Ignore Python background clutter
+__pycache__/
+*.pyc
+
+# 4. Ignore Streamlit background clutter
+.streamlit/
+
+# 5. Ignore Virtual Environments (just in case you make one)
+venv/
+env/
+.venv/
